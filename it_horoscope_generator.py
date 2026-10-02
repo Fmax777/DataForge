@@ -4,6 +4,7 @@ from datetime import datetime
 
 def generate_it_horoscope():
     professions = ["Data Engineer", "DevOps", "Python Developer", "Data Scientist", "Team Lead"]
+    professions.append("BI Developer")
 
     # Списки фраз для случайной сборки уникального предсказания
     stars_position = [
